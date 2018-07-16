@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta authors="숙명여자대학교 IT공학과 지수현"/>
+<title>SOOHYUN'S HOME</title>
+<link rel="stylesheet" type="text/css" href="stylehome.css"/>
+</head>
+<body>
+  <header>
+      <a id="logo" href="index.htm">SOOHYUN</a>
+    <nav>
+      <ul>
+        <li><a href="contact.html" >Contact</a></li>
+        <li><a href="hobby.html" >Hobby</a></li>
+        <li><a href="time.html" >Portfolio</a></li>
+        <li><a href="profile.html" >Profile</a></li>
+      </ul>
+    </nav>
+  </header>
+<article>
+  <script type="text/javascript">
+    alert("취미소개 페이지로 이동합니다");
+    </script>
+	<div class="hob">
+	<ul>
+			<li><br>
+				<strong>1. 우쿨렐레</strong><br><br>
+				 <img src="image1.jpg" width="500px" height="320px"/><br/>
+
+					 2016년 8월에 구입<br>
+					 매주 목요일 저녁 수강중<br>
+					 <a href="http://www.artte.or.kr/" title="홈페이지 바로가기" target="_blank">
+						 아르떼 문화예술 평생교육원</a><br>
+						 <br>
+						 <video src="video1.mp4" controls preload="auto" width="700px" height="400px"></video><br/>
+						 권진원 - Happy birthday to you(ukulele.ver)<br><br><br>
+			</li>
+			<li>
+				<strong>2. 요가하기</strong><br><br>
+				 <img src="image2.jpg" width="500px" height="350px"/><br>
+
+					 2017년 1월부터 수강중<br/>
+					 체형교정 및 다이어트목적<br/>
+					 <a href="http://www.somayoga.co.kr/" title="홈페이지 바로가기" target="_blank">
+					 건대 소마힐링요가원</a><br><br><br>
+			</li>
+			<li> <strong>3. 음악듣기</strong><br><br>
+				<img src="image3.jpg" width="500px" height="350px"/><br>
+					 모든 장르 가리지않고 매일매일 스트리밍<br><br>
+					 <audio src="song2.mp3" controls preload="metadata"/></audio><br>
+					 MIKA - Popular Song<br>
+			</li>
+
+      <script  type="text/javascript" >
+          var win;
+          function  open_window() {
+              var url = prompt ("듣고싶은 음악제목을 입력해주세요");
+              if (url) win = window.open("http://music.naver.com/search/search.nhn?query="+url+"&x=0&y=0");
+          }
+      </script>
+
+      <button onclick="open_window();">네이버뮤직 바로가기</button>
+      <button onclick="win.close();">지금 창닫기</button>
+
+
+
+
+	</ul>
+</div>
+</article>
+</body>
+</html>
